@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: 'Signika', sans-serif;
+}
+
+body {
+    background: #202226;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+}
+
+.main{
+    margin-right: 25px;
+    max-width: 375px;
+    max-height: 812px;
+}
+
+.logo-image {
+    
+    width: 24px;
+    height: 24px;
+}
+
+.title {
+    font-size: 27px;
+    font-weight: bold;
+    margin-left: 6px;
+    color: #FFFFFF;
+}
+
+.header {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 57px; 
+}
+
+.mainBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 28px;
+    width: 322px;
+    height: 40px;
+    background: #2A2C31;
+    border-radius: 34px;
+    opacity: 1;
+    margin-left: 26px ;
+}
+
+.typeTask {
+    background: #2A2C31;
+    margin-left: 13px;
+    border: none;
+    outline: none;
+    color: #9A9B9E;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+::-webkit-input-placeholder{
+    color: #9A9B9E;
+    width: 122px;
+    color: #9A9B9E;
+    font-size: 16px;
+}
+
+.button-add {
+    width: 71px;
+    height: 36px;
+    background: #236FE2 ;
+    border-radius: 34px;
+    opacity: 1;
+    border: none;
+    margin-left:  78px;
+    text-transform: uppercase;
+    color: #ffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.wrapper-progress{
+    margin-top: 22px;
+}
+
+.progress-bar-text{
+    color: #ffffff;
+    font-size: 14px;
+    margin-left: 27px;
+    display: flex;
+    justify-content:space-between ;
+    max-width: 320px;
+}
+
+.progress-bar-border{
+    border: 1px solid #393B41;
+    width: 320px;
+    height: 12px;
+    border-radius: 49px;
+    margin-left: 27px;
+}
+
+#progress-bar{
+    background-color: #236FE2;
+    width: 0%;
+    height: 10px;
+    border-radius: 49px;
+    border: 1px solid #393B41 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-task{
+    color: #ffffff;
+    margin-top: 22px ;
+    margin-left: 26px ;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.task{
+    width: 326px;
+    height: 50px;
+    background-color: #2A2C31;  
+    border-radius: 8px;
+    margin-top: 11px;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.task:hover{
+   background-color:#373A44 ;
+}
+
+.delete-div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.hide{
+   display: none;
+}
+
+.done-div{
+    margin-left: 290px;
+    align-items: center;
+    position: absolute;
+}
+
+.done{
+  display: block;
+  background-color: #236FE2;
+}
+
+.container{
+    display: block;
+}
+
+.task-completed .hide{
+    display: block;
+}
+
